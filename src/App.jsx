@@ -17,22 +17,22 @@ const App = () => {
         <Route
           exact
           path="/"
-          element={<ItemsList  />}
+          element={<ItemsList filteringFunction={homeHandler} />}
         />
         <Route
           exact
           path="/movies"
-          element={<ItemsList  />}
+          element={<ItemsList filteringFunction={moviesHandler} />}
         />
         <Route
           exact
           path="/tv"
-          element={<ItemsList  />}
+          element={<ItemsList filteringFunction={tvHandler} />}
         />
         <Route
           exact
           path="/bookmark"
-          element={<ItemsList  />}
+          element={<ItemsList filteringFunction={bookmarkHandler} />}
         />
       </Routes>
     </>

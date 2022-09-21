@@ -7,22 +7,30 @@ const Navbar = () => {
     useContext(DataContext);
   return (
     <div>
-      <span onClick={homeHandler}>
+      <span
+      //  onClick={homeHandler}
+       >
         <Link to="/" relative="path">
           Home
         </Link>
       </span>
-      <span onClick={moviesHandler}>
+      <span 
+      // onClick={moviesHandler}
+      >
         <Link to="/movies" relative="path">
           Movies
         </Link>
       </span>
-      <span onClick={tvHandler}>
+      <span 
+      // onClick={tvHandler}
+      >
         <Link to="/tv" relative="path">
           TV
         </Link>
       </span>
-      <span onClick={bookmarkHandler}>
+      <span 
+      // onClick={bookmarkHandler}
+      >
         <Link to="/bookmark" relative="path">
           Bookmark
         </Link>
