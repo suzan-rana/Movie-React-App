@@ -11,7 +11,8 @@ const ItemsList = (props) => {
 
 //  filteringFunction();
 const location = window.location.href
-console.log( location )
+useEffect( () => {
+  console.log( location )
 switch( location ) {
   case 'http://127.0.0.1:5173':
         homeHandler();
@@ -26,6 +27,10 @@ switch( location ) {
         bookmarkHandler();
         break;
 }
+  
+}, [ location ])
+
+
   
   
 

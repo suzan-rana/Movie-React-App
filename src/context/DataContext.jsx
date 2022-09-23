@@ -11,7 +11,7 @@ const DataProvider = ({ children }) => {
   const [ filteredList, setFilteredList ] = useState(data)
 
   const searchHandler = () => {
-    setFilteredList( filteredList.filter(item => item.title.toLowerCase().trim() == searchText.toLowerCase().trim() ))
+    setFilteredList( filteredList.filter(item => item.title.trim().toLowerCase() === searchText.trim().toLowerCase() ))
   }
 
   const homeHandler = () => {

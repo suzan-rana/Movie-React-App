@@ -2,7 +2,7 @@ const dataList = [
     {
         title: 'The Great Lands',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: false,
         rating: 'PG',
         id: 1,
         image: '/assets/2.jpg',
@@ -11,7 +11,7 @@ const dataList = [
     {
         title: 'The Diary',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: false,
         rating: '18+',
         id: 2,
         image: '/assets/2.jpg',
@@ -20,7 +20,7 @@ const dataList = [
     {
         title: 'Earth is unlocked',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: true,
         rating: 'PG',
         id: 3,
         image: '/assets/2.jpg',
@@ -29,7 +29,7 @@ const dataList = [
     {
         title: 'No Land Beyond',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: false,
         rating: '18+',
         id: 4,
         movies: true,
@@ -38,7 +38,7 @@ const dataList = [
     {
         title: 'During the hunt',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: true,
         rating: 'PG',
         id: 5,
         image: '/assets/2.jpg',
@@ -47,7 +47,7 @@ const dataList = [
     {
         title: 'Autosport the series',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: false,
         rating: '18+',
         id: 6,
         image: '/assets/2.jpg',
@@ -56,7 +56,7 @@ const dataList = [
     {
         title: 'Same answer',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: true,
         rating: 'PG',
         id: 7,
         movies: false,
@@ -65,7 +65,7 @@ const dataList = [
     {
         title: 'The Great Lands',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: false,
         rating: '18+',
         id: 8,
         movies: true,
@@ -74,7 +74,7 @@ const dataList = [
     {
         title: 'The Great Lands',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: false,
         rating: 'PG',
         id: 9,
         image: '/assets/2.jpg',
@@ -83,7 +83,7 @@ const dataList = [
     {
         title: 'The Diary',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: true,
         movies: true,
         rating: '18+',
         id: 10,
@@ -92,7 +92,7 @@ const dataList = [
     {
         title: 'Earth is unlocked',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: false,
         rating: 'PG',
         movies: false,
         id: 11,
@@ -101,7 +101,7 @@ const dataList = [
     {
         title: 'No Land Beyond',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: false,
         rating: '18+',
         id: 12,
         image: '/assets/2.jpg',
@@ -111,7 +111,7 @@ const dataList = [
     {
         title: 'During the hunt',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: false,
         rating: 'PG',
         id: 13,
         movies: false,
@@ -120,7 +120,7 @@ const dataList = [
     {
         title: 'Autosport the series',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: false,
         rating: '18+',
         id: 14,
         movies: false,
@@ -130,7 +130,7 @@ const dataList = [
         title: 'Same answer',
         movies: true,
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: false,
         rating: 'PG',
         id: 15,
         image: '/assets/2.jpg',
@@ -138,7 +138,7 @@ const dataList = [
     {
         title: 'The Great Lands',
         releasedDate: '2019',
-        bookMarked: false,
+        bookmark: false,
         movies: false,
         rating: '18+',
         id: 16,
